@@ -1,0 +1,129 @@
+.all{
+    width: 500px;
+    height: 500px;
+    border: #888 1px solid;
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    left:500px;
+    border-radius: 6px;
+}
+p{
+    position: absolute;
+    bottom: 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: #009a61;
+}
+a:hover,a:focus{
+    text-decoration: underline;
+    color: #004e31;
+}
+footer:link{
+    font-size: 14px;
+}
+._footer{
+    text-align: center;
+    position: relative;
+    top: 140px;
+    color: #777;
+}
+
+.header{
+    font-size: 18px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 15px;
+}
+.label,.password{
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    border: 1px #3b99fc solid;
+    border-radius: 6px;
+}
+input{
+    width: 400px;
+    height: 34px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px #777 solid;
+}
+.bodyer{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.group{
+    position: relative;
+    top: 10px;
+}
+.pull-right{
+    position: relative;
+    left: 300px;
+}
+.delete{
+    color: #f3f3f3;
+}
+.phonelogin{
+    position: relative;
+    top: 15px;
+}
+.login{
+    color: #fff;
+    background-color: #006741;
+    border: 1px #00432a;
+    text-align: center;
+    height: 30px;
+    padding: 2px;
+    width: 400px;
+    position: relative;
+    top: 25px;
+    border-radius: 6px;
+}
+.login:focus{
+    background-color: #00432a;
+    outline: none;
+    border-radius: 6px;
+}
+.more-login-words{
+    color: #888;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding: 0px;       
+}
+.register{
+    width: 400px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 6px;
+    position: relative;
+    top: 120px;
+    border: 1px #888 solid;
+    left: 50px;
+    background-color: #fff;
+    font-size: 15px;
+}
+.register:focus{
+    background-color: #888;
+    outline: none;
+    border: 1px #777 solid;
+    border-radius: 6px;
+}
+img{
+    width: 28px;
+    height: 25px;
+    position: relative;
+    top: 80px;
+    left: 120px;
+    margin: 0 2px;
+}
+.image{
+    height: 8px;
+    top: 70px;
+}
